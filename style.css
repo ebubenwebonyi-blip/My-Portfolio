@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    background-color: orangered;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.split {
+    color: aqua;
+}
+h2 {
+    color: antiquewhite;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+color: #000;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.contact-button:hover {
+    background-color: aqua;
+}
+
+h2:hover {
+    
+}
