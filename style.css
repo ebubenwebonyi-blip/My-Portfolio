@@ -5,45 +5,98 @@
 }
 
 header {
-    height: 70px;
-    background-color: orangered;
-display: flex;
-align-items: center;
-justify-content: space-around;
+  height: 70px;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .split {
-    color: aqua;
+  color: aqua;
 }
 h2 {
-    color: antiquewhite;
+  color: antiquewhite;
 }
 
 .nav-links {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
-.nav-links a{
-    text-decoration: none;
-    color: aliceblue;
-    font-weight: bold;
+.nav-links a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
-color: #000;
+  text-decoration: underline;
+  color: #000;
 }
 
 .contact-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
 }
 
 .contact-button:hover {
-    background-color: aqua;
+  background-color: aqua;
 }
 
-h2:hover {
-    
+.hero-section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.intro-div {
+    width: 40%;
+
+}
+
+.p1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.p2,
+.p3 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.Ebube {
+  color: orangered;
+}
+.image-div img {
+  width: 400px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+
+
+.btn-div {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  margin-top: 20px;
+}
+
+.Hire {
+    padding: 10px 25px;
+    background-color: #000;
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+}
+
+.Experience {
+    padding: 10px 25px;
+    background-color: orangered;
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
 }
