@@ -10,6 +10,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: sticky;
+  top: 0;
 }
 .split {
   color: aqua;
@@ -42,6 +44,7 @@ h2 {
 
 .contact-button:hover {
   background-color: aqua;
+  transition: 0.5s;
 }
 
 .hero-section {
@@ -52,8 +55,7 @@ h2 {
 }
 
 .intro-div {
-    width: 40%;
-
+  width: 40%;
 }
 
 .p1 {
@@ -76,8 +78,6 @@ h2 {
   object-fit: contain;
 }
 
-
-
 .btn-div {
   display: flex;
   justify-content: space-between;
@@ -86,17 +86,83 @@ h2 {
 }
 
 .Hire {
-    padding: 10px 25px;
-    background-color: #000;
-    color: aliceblue;
-    border: none;
-    border-radius: 7px;
+  padding: 10px 25px;
+  background-color: #0c0c0c;
+  color: rgb(245, 243, 243);
+  border-color: none;
+  border-radius: 7px;
+}
+
+.Hire:hover {
+  padding: 10px 25px;
+  background-color: #f5f2f2;
+  color: rgb(9, 10, 10);
+  border-color: #0c0c0c;
+  border-radius: 7px;
+  transition: 0.5s;
 }
 
 .Experience {
-    padding: 10px 25px;
-    background-color: orangered;
-    color: aliceblue;
-    border: none;
-    border-radius: 7px;
+  padding: 10px 25px;
+  background-color: orangered;
+  color: aliceblue;
+  border: 1px solid;
+  border-radius: 7px;
+  border-color: #000;
+}
+
+.Experience:hover {
+  padding: 10px 25px;
+  background-color: rgb(245, 243, 242);
+  color: rgb(243, 112, 6);
+  border: 1px solid black;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+.about-section {
+  height: 100vh;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-img {
+  border: 5px solid rgb(7, 7, 7);
+  box-shadow: 0.5px 0.5px 20px black;
+  box-shadow: 0.5px 0.5px 20px black;
+  box-shadow: 0.5px 0.5px 20px black;
+}
+.Ebube1 {
+  color: rgb(15, 5, 1);
+}
+
+.about-div {
+  width: 50%;
+  line-height: 40px;
+}
+
+.about-me {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.frnt-end {
+  font-size: 40px;
+  color: #f5f2f2;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.text {
+  color: white;
+  margin-top: 20px;
+}
+
+.Experience-abt {
+  padding: 10px 25px;
+  background-color: rgb(245, 243, 242);
+  color: rgb(8, 4, 0);
+  border: 1px solid black;
+  border-radius: 7px;
+  transition: 0.5s;
 }
